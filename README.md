@@ -1,6 +1,6 @@
 ## bart-website
 
-A personalizable website to personalize. 
+A personalizable personal website. 
 Based on Django and Mezzanine. 
  
 ### Installation
@@ -40,12 +40,12 @@ Login at http://127.0.0.1:8000/admin/ to create a homepage with '/' as URL.
 Create a new Django 1.8.x + Python 3.x application in the webfaction web interface.
 
 
-##### Install a user pip,
+##### Install a user pip
 ```
 $ easy_install-3.4 pip
 ```
 
-##### Install dependencies,
+##### Install dependencies
 ```
 $ pip3.4 install --user -r requirements.txt 
 ```
