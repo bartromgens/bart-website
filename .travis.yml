@@ -1,0 +1,15 @@
+language: python
+python:
+  - "3.4"
+# command to install dependencies
+install:
+  - "pip install -r requirements.txt"
+  - "python scripts/create_local_settings.py"
+  - "pip install flake8"
+# command to run tests
+script:
+  - "python -W ignore::DeprecationWarning manage.py createdb --nodata --noinput"
+  - "python -W ignore::DeprecationWarning manage.py loaddata demo_data"
+  - "flake8 website --statistics --exit-zero"
+notifications:
+  email: false
