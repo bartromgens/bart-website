@@ -1,4 +1,6 @@
-## bart-website
+bart-website
+------------
+[![Build Status](https://travis-ci.org/bartromgens/bart-website.svg?branch=master)](https://travis-ci.org/bartromgens/bart-website)
 
 A personalizable personal website. 
 Based on Django and Mezzanine. 
