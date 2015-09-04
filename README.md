@@ -62,5 +62,5 @@ $ less ~/logs/user/error_bart_website.log
 
 ##### Apache restart
 ```
-$ ~/webapps/care/apache2/bin/restart
+$ ~/webapps/bart_website/apache2/bin/restart
 ```
