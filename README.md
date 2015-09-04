@@ -5,7 +5,11 @@ Based on Django and Mezzanine.
  
 ### Installation
 
-Create a virtualenv with dependencies with the create_env.sh script.
+##### Create a virtualenv and install dependencies
+```
+$ cd scripts
+$ bash create_env.sh
+```
 
 ##### Activate the virtualenv
 ```
